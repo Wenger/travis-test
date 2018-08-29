@@ -15,8 +15,5 @@
     ],
     "files": [
         "index.js"
-    ],
-    "config": {
-        "unsafe-perm":true
-    }
+    ]
 }
