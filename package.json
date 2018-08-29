@@ -7,7 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "whoami"
+        "preinstall": "echo $PATH"
     },
     "os": [
         "darwin",
