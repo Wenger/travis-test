@@ -7,7 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "which cmake"
+        "preinstall": "/usr/local/cmake-3.9.2/bin/cmake --version"
     },
     "os": [
         "darwin",
