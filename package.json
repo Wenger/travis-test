@@ -7,7 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "cmake --version"
+        "preinstall": "sudo -u ${SUDO_USER} cmake --version"
     },
     "os": [
         "darwin",
@@ -15,5 +15,8 @@
     ],
     "files": [
         "index.js"
-    ]
+    ],
+    "config": {
+        "unsafe-perm":true
+    }
 }
