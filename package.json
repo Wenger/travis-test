@@ -1,0 +1,16 @@
+{
+    "name": "travis-test",
+    "version": "0.0.1",
+    "license": "MIT",
+    "engines": {
+        "node": ">= 7.0.0",
+        "npm": ">= 6.0.0"
+    },
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "files": [
+        "index.js"
+    ]
+}
