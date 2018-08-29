@@ -18,4 +18,4 @@ matrix:
     - os: osx
     
     
-install: sudo npm install -g --unsafe-perm
+install: sudo npm install
