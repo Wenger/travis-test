@@ -7,7 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "echo $PATH"
+        "preinstall": "which cmake"
     },
     "os": [
         "darwin",
