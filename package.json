@@ -7,7 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "sudo -u travis cmake --vesion"
+        "preinstall": "sudo -u travis bash postinstall.sh"
     },
     "os": [
         "darwin",
