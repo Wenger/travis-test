@@ -7,7 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "sudo -Eu travis cmake --version"
+        "preinstall": "presinstall.sh"
     },
     "os": [
         "darwin",
