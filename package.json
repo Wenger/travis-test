@@ -7,8 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "echo $PATH && sudo -u ${SUDO_USER} echo $PATH",
-        "postinstall": "cmake --version"
+        "preinstall": "sudo -u ${SUDO_USER} cmake --version",
     },
     "os": [
         "darwin",

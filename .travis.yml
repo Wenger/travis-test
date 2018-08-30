@@ -14,4 +14,4 @@ before_install:
   - sudo ln -s `which npm` /usr/bin/npm
   # - sudo export PATH=$PATH:/usr/local/cmake/bin/cmake    
     
-install: sudo env "PATH=$PATH" npm install -g jamscript --unsafe-perm
+install: sudo env "PATH=$PATH" npm install --unsafe-perm
