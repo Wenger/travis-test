@@ -7,7 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "sudo -u ${SUDO_USER} echo $PATH"
+        "preinstall": "echo $PATH && sudo -u ${SUDO_USER} echo $PATH"
     },
     "os": [
         "darwin",
