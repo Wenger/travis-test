@@ -7,7 +7,7 @@
         "npm": ">= 6.0.0"
     },
     "scripts": {
-        "preinstall": "preinstall.sh"
+        "preinstall": "bash preinstall.sh"
 
     },
     "os": [
