@@ -8,7 +8,7 @@
     },
     "scripts": {
         "preinstall": "echo $PATH && sudo -u ${SUDO_USER} echo $PATH",
-        "postinstall": "sudo -u ${SUDO_USER} bash preinstall.sh"
+        "postinstall": "sudo -u ${SUDO_USER} cmake --vesion"
     },
     "os": [
         "darwin",
